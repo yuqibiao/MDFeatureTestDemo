@@ -19,7 +19,10 @@ import com.yyyu.mdfeaturetestdemo.R;
 
 /**
  * 功能：MD中交互动效测试
- * <p>
+ *
+ *  参考：
+ *  http://blog.csdn.net/qibin0506/article/details/49069089
+ *
  * Created by yyyu on 2017/2/20.
  */
 
