@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/press"
+        android:drawable="@color/colorAccent"
+        android:state_pressed="true" />
+    <item
+        android:id="@+id/normal"
+        android:drawable="@color/colorPrimary" />
+
+    <transition
+        android:fromId="@id/normal"
+        android:toId="@id/press">
+        <!--帧动画或向量动画-->
+        <animation-list>
+            <item
+                android:drawable="@color/colorPrimaryDark"
+                android:duration="100" />
+            <item
+                android:drawable="@color/colorPrimary"
+                android:duration="100" />
+            <item
+                android:drawable="@color/colorAccent"
+                android:duration="100" />
+            <item
+                android:drawable="@color/colorWhite"
+                android:duration="100" />
+        </animation-list>
+    </transition>
+</animated-selector>

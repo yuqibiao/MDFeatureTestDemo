@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/triangle">
+
+    <target
+        android:animation="@animator/rotation_tri"
+        android:name="group" />
+    <target
+        android:animation="@animator/color_tri"
+        android:name="path" />
+
+</animated-vector>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ripple_btn1">
+        <item name="android:background">?selectableItemBackground</item>
+    </style>
+    <style name="ripple_btn2">
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+    </style>
+    <style name="ripple_drawable">
+        <item name="android:background">@drawable/ripple_test</item>
+    </style>
+
+</resources>
