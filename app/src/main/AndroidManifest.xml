@@ -19,6 +19,20 @@
             android:label="Bottom Navigation "/>
         <activity android:name=".animation.TestAniActivity"
             android:label="Animatio "/>
+        <activity android:name=".transition.TestActTransitionActivity"
+            android:label="transition动画测试"/>
+        <activity android:name=".transition.BasicTransitionActivity"
+            android:label="transition基础"/>
+        <activity android:name=".transition.DelayTransitionActivity"
+            android:label="transition延迟动画"/>
+        <activity android:name=".transition.CustomTransitionActivity"
+            android:label="自定义transition"/>
+        <activity android:name=".transition.page.OverridePendingActivity"
+            android:label="api小于v21 Activity动画"/>
+        <activity android:name=".transition.page.ContentTransitionActivity"
+            android:label="activity内容过渡动画）"/>
+        <activity android:name=".transition.page.ShareElementTransitionActivity"
+            android:label="共享元素"/>
     </application>
 
 </manifest>

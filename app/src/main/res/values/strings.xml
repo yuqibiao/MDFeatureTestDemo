@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MDFeatureTestDemo</string>
+    <string name="img_share">img_share</string>
 </resources>

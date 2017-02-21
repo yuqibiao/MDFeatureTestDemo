@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Activity转场动画" />
+            android:text="transition动画" />
 
     </LinearLayout>
 
