@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.yyyu.mdfeaturetestdemo.animation.TestAniActivity;
 import com.yyyu.mdfeaturetestdemo.bottom_navigation.TestBottomNavActivity;
+import com.yyyu.mdfeaturetestdemo.coordinator_layout.CoordinatorActivity;
 import com.yyyu.mdfeaturetestdemo.transition.TestActTransitionActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_bottom_nav).setOnClickListener(this);
         findViewById(R.id.btn_ani_test).setOnClickListener(this);
         findViewById(R.id.btn_act_transition).setOnClickListener(this);
+        findViewById(R.id.btn_coordinator).setOnClickListener(this);
     }
 
     @Override
@@ -31,6 +33,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_act_transition:
                 startActivity(new Intent(this , TestActTransitionActivity.class));
+                break;
+            case R.id.btn_coordinator:
+                startActivity(new Intent(this , CoordinatorActivity.class));
                 break;
         }
     }

@@ -33,6 +33,8 @@
             android:label="activity内容过渡动画）"/>
         <activity android:name=".transition.page.ShareElementTransitionActivity"
             android:label="共享元素"/>
+        <activity android:name=".coordinator_layout.CoordinatorActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     </application>
 
 </manifest>
